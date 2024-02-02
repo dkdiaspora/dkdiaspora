@@ -1,0 +1,259 @@
+﻿<!doctype html>
+<html>
+<head>
+
+<meta carset="utf-8">
+<meta name-"viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+*{box-sizing:border-box;}
+
+
+.header {
+grid-area:header;
+padding:10px 12px;
+font-style: sans serif;
+text-shadow: 2px 3px blue;
+background-image:linear-gradient(to right, red,yellow,green);
+margin-left:0px;
+position:relative;
+}
+.header h1{
+font-size:50px;
+margin:0px;
+
+}
+.header, p, img{
+font-size:15px;
+font-weight:bold;
+color:black;
+float:left;
+text-shadow:none;
+}
+
+.grid-container{
+display:grid;
+grid-template-areas:
+'header header header header header header'
+'left left middle middle right right'
+'footer footer footer footer footer footer';
+}
+
+.left,
+.middle,
+.right {
+padding:10px;
+height:800px;
+
+}
+.left {
+grid-area:left;
+}
+ul{
+list-style-type:none;
+margin:0px;
+padding:0px;
+
+
+}
+ li a {
+text-decoration:none;
+display:inline;
+text-align:center;
+padding:10px;
+color:#c5923a;
+font-size:30px;
+margin:5px 2px;
+float:left;
+background-color:rgba(0, 0, 0, 0.9);
+border-radius:20px;
+
+
+}
+li a:hover{
+background-color:#8f6a2a;
+color:white;
+border-radius:20px;
+}
+ul, .desc, img{
+padding:10px;
+text-align:center;
+}
+.middle{
+grid-area:middle;
+color:#030709;
+overflow:scroll;
+}
+.right{
+grid-area:right;
+color:#030709;
+overflow:scroll;
+}
+.btn{
+background-color:#df9920;
+padding:5px;
+font-size:15px;
+border-radius:10px;
+cursor:pointer;
+}
+h1{
+font-weight:bold;
+font-size:30px;
+text-align:center;
+}
+
+
+
+
+
+
+.footer {
+grid-area:footer;
+padding:10px;
+font-style: sans serif;
+text-shadow: 2px 3px blue;
+text-align:center;
+background-image:linear-gradient(to right, red,yellow,green);
+}
+
+@media  (max-width:600px){
+'header header header header header header'
+'left left left left left left'
+'middle middle middle middle middle middle'
+'right right right right right right'
+'footer footer footer footer footer footer'
+}
+
+</style>
+
+
+
+
+
+
+
+<div class="grid-container">
+<div class="header">
+
+<ul>
+<li><a href="file://nashome/fs_home/home/mjabbi/My_Documents/HTML%20CODING%20PRACTICE/DamphaKundaDiasporaaboutus.html">About Us</a></li>
+<li><a href="file://nashome/fs_home/home/mjabbi/My_Documents/HTML%20CODING%20PRACTICE/DamphaKundaDiasporaHospitalProject.html">Hospital Project</a></li>
+<li><a href="file://nashome/fs_home/home/mjabbi/My_Documents/HTML%20CODING%20PRACTICE/DamphaKundaDiasporaBridgeProject.html">Bridge Project</a></li>
+<li><a href="#Water Project">Water Project</a></li>
+<li><a href="#Road Repair Project">Road Repair Project</a></li>
+<li><a href="#Contact us">Contact us</a></li>
+<li><a href="#Feedback">Feedback</a></li>
+</ul>
+
+
+</div>
+<div class="grid-container">
+<div class="header">
+<h1>Welcome to the official website of Dampha Kunda Diaspora Organisation</h1>
+</div>
+
+<div class="grid-container">
+<div class="header">
+
+<ul>
+<li><img src="https://i.ibb.co/xzwZpXZ/IMG-20240127-WA0057.jpg"
+style="width:350px; height:200px; border-radius:5px; margin-left:0px;"></img></li>
+
+<li><img src="https://i.ibb.co/BsfQgH9/IMG-20240127-WA0058.jpg"
+style="width:350px; height:200px; border-radius:5px;margin-left:10px"></img></li>
+
+<li><img src="https://i.ibb.co/S0M0t24/Screenshot-20240129-110728-Gallery.jpg"
+style="width:350px; height:200px; border-radius:5px;margin-left:10px"></img></li>
+
+<li><img src="https://i.ibb.co/r0920Sv/IMG-20240128-WA0066.jpg"
+style="width:350px; height:200px; border-radius:5px;margin-left:0px;margin-top:10px;"></img></li>
+
+<li><img src="https://i.ibb.co/PxLYn9h/IMG-20240128-WA0065.jpg"
+style="width:350px; height:200px; border-radius:5px;margin-left:10px;margin-top:10px; "></img></li>
+
+<li><img src="https://i.ibb.co/frvrJMT/IMG-20240128-WA0061.jpg"
+style="width:350px; height:200px; border-radius:5px;margin-left:10px;margin-top:10px; "></img></li>
+
+</ul>
+
+
+
+
+
+</div>
+
+
+
+
+
+<div class="left" style="background-image:radial-gradient(red,blue,green)">
+
+<ul>
+<li><a href="file://nashome/fs_home/home/mjabbi/My_Documents/HTML%20CODING%20PRACTICE/DamphaKundaDiasporaaboutus.html">About Us</a></li>
+<li><a href="file://nashome/fs_home/home/mjabbi/My_Documents/HTML%20CODING%20PRACTICE/DamphaKundaDiasporaHospitalProject.html">Hospital Project</a></li>
+<li><a href="file://nashome/fs_home/home/mjabbi/My_Documents/HTML%20CODING%20PRACTICE/DamphaKundaDiasporaBridgeProject.html">Bridge Project</a></li>
+<li><a href="#Water Project">Water Project</a></li>
+<li><a href="#Road Repair Project">Road Repair Project</a></li>
+<li><a href="#Contact us">Contact us</a></li>
+<li><a href="#Feedback">Feedback</a></li>
+</ul>
+
+
+</div>
+<div class="middle"style="background-color:#b08d4f "  >
+<h1 >Dampha Kunda United Diaspora Overview<h1>
+<p>Dampha Diaspora was officially established in 06th August 2018 by members of Dampha Diaspora committee around 
+the world. It is a non-profit organisation with a long term vision to render aids to residents of Dampha Kunda 
+Village, and the surrounding Communities Upper River Region, The Gambia, West Africa.</p>
+
+<p>The group membership is not limited to only the native of Dampha Kunda but to anyone who has a 
+profound interest in the group and its activities is highly welcome to join the group.</p>
+
+<p>Since its establishment, Dampha Kunda Diaspora Organisation has been engaging in various 
+non-profit humanitarian projects such as: building hospital, repairing bridges, roads, and 
+managing maintenance of Dampha Kunda Village water supply system. Currently, Dampha Kunda 
+Diaspora Organisation is at the finishing phrase of the hospital construction.</p>
+
+<p>The organisation is seeking helps from government, individual philanthropist, and 
+other charitable organisations to help complete the hospital so Dampha Kunda Village 
+and its surrounding villages can receive world class hospital treatment facilities.</p>
+
+
+
+
+
+
+<p id="hide" style="display:none">Thank you for visiting Dampha Kunda Diaspora Official Website</p>      
+
+<button class="btn" type="button"onclick="getElementById('hide').style.display='block'">Read more
+</button>
+<button class="btn" type="button"onclick="getElementById('hide').style.display='none'">Read less
+</button>
+</div>
+
+
+
+<div class="right"style="background-color:#b08d4f">
+<h1>what Inspired Us to Build Hospital </h1>
+<p>We Dampha Kunda Diaspora Organisation is a nonprofit association formed by the people of Dampha Kunda who were living in aboard different countries in world in collaboration with residents
+ in the village,our aims  and objectives are to bring social and infrastructural developments  such as building bridge ,borehole ,mosque most importantly easy accessible Healthcare facility for all in the village, because the only government own Health Centre
+ is in Basse Town which is not standard and is about 5km from Our Dampha kunda  imagine carrying ,  sick .(pregnant women, babies ,young and old )  no emergency ambulance  services neither nor first Aider with no other options but carry patients on a donkey
+ cart  travel on a bad road  condition which is about 1:30 minutes  away for patients who urgent medical care make it even more harder to have access to proper medical care and sometimes sadly so many  people lost their that could have prevented . Seasonal
+ diseases such as malaria communicable and non communicable diseases that are prevalent can be also be prevented through public sensitisation approach by educating people about proper hygiene measures are lacking with crippling healthcare in the Gambia, This
+ is where Dampha Kunda diaspora came into existence to eradicate, minimise such impacts in our communities</p>
+
+<p id="msg" style="display:none"> Welcome to our official website! We are delighted to have you here. Whether you're a long time member or 
+brand new, we want you to feel right at home. This is a place where you can connect, learn, and grow with 
+like-minded individuals. So join the conversation, explore our resources, and make yourself comfortable. 
+We can't wait to see what amazing things you'll bring to our community. Welcome aboard!</p>
+
+
+<button class="btn" type="button" onclick="document.getElementById('msg').style.display='block'">Read More</button>
+<button class="btn"  type="button" onclick="document.getElementById('msg').style.display='none'">Read less</button>
+</div>
+<div class="footer" >
+<h1>Dampha Kunda Diaspora Home Page</h1>
+</div>
+
+
+
